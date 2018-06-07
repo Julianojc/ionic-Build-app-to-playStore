@@ -40,7 +40,7 @@ A step-by-step example to generate your app's .apk for production and publish in
 
 * > zipalign -v 4 android-release-unsigned.apk NOME_DO_APP.apk
 
-Ou se houiver erro de comando não encontrado
+Ou se houver erro de comando não encontrado:
 
 > ./zipalign -v 4 android-release-unsigned.apk NOME_DO_APP.apk
 
