@@ -28,7 +28,7 @@ A step-by-step example to generate your app's .apk for production and publish in
 
 * > cd C:\Program Files\Java\VERSAO_DO_JDK\bin 
 
-* > jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore nome-da-keystore.keystore android-release-unsigned.apk AppViva alias_name
+* > jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore nome-da-keystore.keystore android-release-unsigned.apk you_app_alias_name
 
 * Informe primeiro a senha da area de armazenamento de chaves e depois a senha da keystore e aguarde completar a assinatura
 
