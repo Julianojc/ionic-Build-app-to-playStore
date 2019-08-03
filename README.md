@@ -49,3 +49,7 @@ Ou se houver erro de comando não encontrado:
 * Pronto, .apk de produção gerado com sucesso.
 
 # 5) Upar no Google Play Console
+
+
+#6)Gerar SHA 1
+keytool -list -v -keystore c:\users\juliano\.android\debug.keystore -alias androiddebugkey -storepass android -keypass android
